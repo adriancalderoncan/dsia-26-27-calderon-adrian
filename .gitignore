@@ -1,0 +1,20 @@
+# Entornos
+.venv/
+venv/
+
+# Secretos
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE / sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Salidas generadas
+Datos/ventas_limpias.csv
+Datos/calidad_datos.json

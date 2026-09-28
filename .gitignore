@@ -1,19 +1,33 @@
 # Entornos
 .venv/
 venv/
+env/
+Envs/
 
 # Secretos
 .env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .ipynb_checkpoints/
+*.egg-info/
+.coverage
+htmlcov/
+dist/
+build/
 
-# IDE / sistema
-.vscode/
+# OS / IDE
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+*.swp
 
 # Salidas generadas
 Datos/ventas_limpias.csv

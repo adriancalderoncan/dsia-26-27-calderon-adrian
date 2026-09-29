@@ -16,9 +16,13 @@ pip install -r requirements.txt
 
 **Carpetas**
 
-ejercicios: el material de cada sesión
+Datos: los csv de ventas e iris y las salidas del E1
 
-sesion01.md: mis apuntes de la sesión 1
+ejercicios: los ejercicios de clase
+
+ejercicios/sesion01.md: E0, apuntes y respuestas de la sesión 1
+
+ejercicios/e1_pandas.ipynb: E1, pandas con ventas.csv
 
 **Variables de entorno**
 

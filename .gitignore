@@ -32,3 +32,6 @@ Thumbs.db
 # Salidas generadas
 Datos/ventas_limpias.csv
 Datos/calidad_datos.json
+
+# Material del profesor
+material/

@@ -28,4 +28,4 @@ jobs:
           pytest -q \
             --cov=ejercicios/ventas_app \
             --cov-report=term-missing \
-            --cov-fail-under=60
+            --cov-fail-under=99

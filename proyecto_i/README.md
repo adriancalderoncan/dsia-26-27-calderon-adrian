@@ -124,4 +124,4 @@ Workflow: .github/workflows/ci.yml (en la raíz del repositorio, uno solo para t
 
 En cada push a main y en cada pull request instala el requirements.txt con Python 3.12 y en la carpeta proyecto_i lanza pytest con cobertura de ventas_app y sleep_app. Si falla algún test o la cobertura baja del 60% se pone en rojo.
 
-Último run en verde: (pegar aquí el enlace de Actions)
+Último run en verde: https://github.com/adriancalderoncan/dsia-26-27-calderon-adrian/actions/runs/38157754342

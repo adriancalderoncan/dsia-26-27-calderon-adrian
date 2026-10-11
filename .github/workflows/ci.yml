@@ -16,19 +16,28 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Unit tests + coverage gate (>= 60%)
+      - name: Tests de los ejercicios + coverage gate (>= 60%)
         run: |
           pytest -q \
             --cov=ejercicios.ventas_app \
             --cov=ejercicios.pipeline_ventas \
             --cov=ejercicios.check_metrics \
             --cov=ejercicios.ai_api_client \
+            --cov-report=term-missing \
+            --cov-fail-under=60
+
+      - name: Proyecto I (ventas_app + sleep_app) + coverage gate (>= 60%)
+        working-directory: proyecto_i
+        run: |
+          pytest -q \
+            --cov=ventas_app \
+            --cov=sleep_app \
             --cov-report=term-missing \
             --cov-fail-under=60

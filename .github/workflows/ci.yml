@@ -26,6 +26,9 @@ jobs:
       - name: Unit tests + coverage gate (>= 60%)
         run: |
           pytest -q \
-            --cov=ejercicios/ventas_app \
+            --cov=ejercicios.ventas_app \
+            --cov=ejercicios.pipeline_ventas \
+            --cov=ejercicios.check_metrics \
+            --cov=ejercicios.ai_api_client \
             --cov-report=term-missing \
             --cov-fail-under=60

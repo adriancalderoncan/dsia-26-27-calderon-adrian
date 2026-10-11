@@ -35,3 +35,6 @@ Datos/calidad_datos.json
 
 # Material del profesor
 material/
+
+# Salidas del pipeline (E4)
+Datos/salida/

@@ -62,7 +62,7 @@ Workflow: .github/workflows/ci.yml
 
 En cada push a main y en cada pull request GitHub instala el requirements.txt y pasa todos los tests con pytest. Si falla algún test o la cobertura baja del 60% se pone en rojo.
 
-Último run en verde: (pegar aquí el enlace de Actions)
+Último run en verde: (https://github.com/adriancalderoncan/dsia-26-27-calderon-adrian/actions/runs/38136729700)
 
 **Variables de entorno**
 

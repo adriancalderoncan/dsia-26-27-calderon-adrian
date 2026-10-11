@@ -38,6 +38,8 @@ ejercicios/ai_api_client.py, prompts.txt y respuestas.jsonl: E5, cliente de IA c
 
 ejercicios/notas_tema3.md: respuestas escritas del E4 y el E5
 
+proyecto_i: el Proyecto I (Parte A ventas_app y Parte B sleep_app). Cómo se ejecuta, el dataset y los tests están en proyecto_i/README.md
+
 **Cómo ejecutar ventas_app**
 
 Desde la carpeta del repo con el .venv activado:
@@ -102,7 +104,7 @@ pytest -q --cov=ejercicios.ventas_app --cov=ejercicios.pipeline_ventas --cov=eje
 
 Workflow: .github/workflows/ci.yml
 
-En cada push a main y en cada pull request GitHub instala el requirements.txt y pasa todos los tests con pytest. Si falla algún test o la cobertura baja del 60% se pone en rojo.
+En cada push a main y en cada pull request GitHub instala el requirements.txt con Python 3.12 y pasa los tests con pytest en dos pasos: primero los de los ejercicios y después los del Proyecto I (dentro de proyecto_i, con cobertura de ventas_app y sleep_app). Si falla algún test o la cobertura baja del 60% se pone en rojo.
 
 Último run en verde: (https://github.com/adriancalderoncan/dsia-26-27-calderon-adrian/actions/runs/38136729700)
 

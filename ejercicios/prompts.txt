@@ -1,0 +1,5 @@
+Resume en una frase qué es un entorno virtual de Python
+Explica la diferencia entre git pull y git clone
+Para qué sirve una fixture en pytest
+Qué significa que un pipeline sea idempotente
+Por qué no se sube el fichero .env a GitHub

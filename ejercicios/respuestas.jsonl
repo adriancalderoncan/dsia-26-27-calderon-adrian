@@ -1,0 +1,5 @@
+{"prompt": "Resume en una frase qué es un entorno virtual de Python", "provider": "mock", "text": "[mock] Recibido: Resume en una frase qué es un entorno virtual de Python"}
+{"prompt": "Explica la diferencia entre git pull y git clone", "provider": "mock", "text": "[mock] Recibido: Explica la diferencia entre git pull y git clone"}
+{"prompt": "Para qué sirve una fixture en pytest", "provider": "mock", "text": "[mock] Recibido: Para qué sirve una fixture en pytest"}
+{"prompt": "Qué significa que un pipeline sea idempotente", "provider": "mock", "text": "[mock] Recibido: Qué significa que un pipeline sea idempotente"}
+{"prompt": "Por qué no se sube el fichero .env a GitHub", "provider": "mock", "text": "[mock] Recibido: Por qué no se sube el fichero .env a GitHub"}
